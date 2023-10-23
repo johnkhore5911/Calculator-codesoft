@@ -1,0 +1,125 @@
+/* write your css here */
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: #5d4f4f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    width: 32%;
+    height: 80%;
+    background-color: #447b82;
+    border-radius: 7%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.result{
+    width:90%;
+    height: 20%;
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    margin: auto;
+    
+}
+
+.input{
+    width:90%;
+    height: 60%;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    justify-items: center;
+    
+    margin-top: 10px;
+}
+
+.btn{
+
+    background-color: #00ADEE;
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+    border-radius: 10px;
+
+    width: 6vw;
+
+
+
+
+}
+
+.btn:hover{
+    background-color: #66bde3;
+}
+
+.result{
+    width:90%;
+
+    margin: auto;
+
+    display: grid;
+
+    justify-items: end;
+    padding: 10px;
+}
+
+.result1{
+    line-height: 52px;
+    font-size: 52px;
+
+}
+.result2{
+    line-height: 32px;
+    font-size: 32px;
+}
+
+@media only screen and (max-width:947px)
+{
+    .content{
+        width: 50%;
+        border-radius: 15px ;
+        
+    }
+    .btn{
+        width: 10vw;
+    }
+}
+
+@media only screen and (max-width:616px)
+{
+    .content{
+        width: 80%;
+        border-radius: 15px;
+    }
+    .btn{
+        width: 15vw;
+    }
+    
+}
+.btn2{
+    background-color: rgb(229, 84, 84);
+}
+.btn2:hover{
+    background-color: red;
+}
+/*  */
+
+@media only screen and (max-width:419px)
+{
+    .btn2{
+        font-size: 28px;
+    }
+    body{
+        height: 100vh;
+        overflow-y: hidden;
+    }
+    
+}
